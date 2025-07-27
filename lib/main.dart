@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice_flutter_widgets/container_widget.dart';
+import 'package:practice_flutter_widgets/checkbox_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ContainerWidget()
+      home: CheckboxWidget()
     );
   }
 }
